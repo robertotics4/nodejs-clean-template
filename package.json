@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-clean-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:robertotics4/nodejs-clean-template.git",
+  "author": "robertotics4 <robertooliveiragp@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node dist/main/api",
+    "build": "rimraf dist && tsc"
+  },
+  "devDependencies": {
+    "@types/module-alias": "^2.0.2",
+    "@types/node": "^20.5.0",
+    "typescript": "^5.1.6"
+  },
+  "engines": {
+    "node": "16.x"
+  },
+  "dependencies": {
+    "module-alias": "^2.2.3",
+    "rimraf": "^5.0.1"
+  }
+}
