@@ -15,9 +15,12 @@
     "test:staged": "npm t -- --findRelatedTests",
     "test:coverage": "npm t -- --coverage",
     "clean": "sudo rm -rf node_modules && yarn install",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "commitlint": "commitlint --edit"
   },
   "devDependencies": {
+    "@commitlint/cli": "^17.7.1",
+    "@commitlint/config-conventional": "^17.7.0",
     "@types/jest": "^29.5.4",
     "@types/module-alias": "^2.0.2",
     "@types/node": "^20.5.0",
