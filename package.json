@@ -14,8 +14,8 @@
     "test:watch": "npm t -- --watch",
     "test:staged": "npm t -- --findRelatedTests",
     "test:coverage": "npm t -- --coverage",
-    "prepare": "husky install",
-    "clean": "sudo rm -rf node_modules && yarn install"
+    "clean": "sudo rm -rf node_modules && yarn install",
+    "prepare": "husky install"
   },
   "devDependencies": {
     "@types/jest": "^29.5.4",
@@ -33,7 +33,7 @@
     "typescript": "*"
   },
   "engines": {
-    "node": "16.x"
+    "node": "18.x"
   },
   "dependencies": {
     "lint-staged": "^14.0.1",
