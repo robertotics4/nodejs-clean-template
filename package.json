@@ -33,6 +33,7 @@
     "node": "16.x"
   },
   "dependencies": {
+    "lint-staged": "^14.0.1",
     "module-alias": "^2.2.3",
     "rimraf": "^5.0.1"
   }
