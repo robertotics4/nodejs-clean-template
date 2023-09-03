@@ -14,7 +14,8 @@
       "@/*": [
         "*"
       ],
-    }
+    },
+    "strict": true
   },
-  "include": ["src"]
+  "include": ["src", "tests"]
 }
